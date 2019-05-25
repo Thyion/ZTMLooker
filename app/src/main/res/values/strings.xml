@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ZTM Looker</string>
+    <string name="Login">Login</string>
+    <string name="Rejestracja">Register</string>
+    <string name="button1">Lines</string>
+    <string name="button2">Stops</string>
+    <string name="button3">Stop Boards</string>
+    <string name="button4">Transport Info</string>
+    <string name="button5">Ticket Automats</string>
+</resources>
