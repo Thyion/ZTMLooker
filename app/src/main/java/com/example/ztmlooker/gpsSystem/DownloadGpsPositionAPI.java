@@ -54,7 +54,7 @@ public class DownloadGpsPositionAPI extends AsyncTask<String, Void, String> {
                 JSONObject jsonObject = new JSONObject(s);
                 Gson gson = new Gson();
                 MainActivity.gpsPositions = gson.fromJson(jsonObject.toString(), GpsPosition.class);
-
+                MainActivity.textView.setText(MainActivity.gpsPositions.getVehicles().get(0).getLine());
             } catch (JSONException e) {
                 e.printStackTrace();
             }

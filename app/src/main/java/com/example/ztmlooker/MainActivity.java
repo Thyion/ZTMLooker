@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 textView.setText("dddd");
                 GpsPositionTaker gpsPositionTaker = new GpsPositionTaker();
-                textView.setText(gpsPositions.getVehicles().get(0).getLine());
+
 
             }
         }).start();
